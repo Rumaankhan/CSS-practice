@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position: fixed;
+            background-color: blanchedalmond;
+            height: 50px;
+            width: 100%;
+        }
+        main{
+            padding-top: 60px;
+            
+        }
+        .sec1{
+            position: relative;
+            background-color: blue;
+            height: 50px;
+            width: 100%;
+            z-index: -1;
+        }
+        .sec2{
+             position: absolute;
+            background-color: red;
+            margin-right:10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Fixed position
+    </header>
+    <main>
+        <section class="sec1">Relative</section>
+        <section class="sec2">absolute</section>
+        <section class="sec3"><i class="fa-brands fa-instagram"></i></section>
+    </main>
+    <footer>static</footer>
+</body>
+</html>

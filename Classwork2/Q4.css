@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: underline wavy;
+    text-transform: uppercase;
+    text-shadow: 10px black;
+}
+p{
+    color: aliceblue;
+    
+}
